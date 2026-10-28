@@ -1,0 +1,32 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/bin/
+/kv-raft
+
+# Test and profiling output
+*.test
+*.out
+coverage.*
+*.prof
+
+# Go workspace files (local only)
+go.work
+go.work.sum
+
+# Node data (persisted Raft state, snapshots, logs)
+/data/
+*.log
+
+# Environment
+.env
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
